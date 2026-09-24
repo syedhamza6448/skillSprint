@@ -1,18 +1,20 @@
 """
-tools/run_comparison_batch.py - Phase 10: Comparison Batch Runner
+tools/run_comparison_batch.py - Phase 10: Comparison Batch Execution Script
 
 Runs core.comparison.compare() across 10 roles with 11 synthetic employees per role
-(110 total comparison cases).
+(110 total comparison evaluation cases).
 
-Exports results to reports/genai_python_comparison_report.csv with columns:
-  employee_id, role, coverage_score, traceability_score, overall_status, flag_count, flag_types, timestamp
+Exports results to reports/genai_python_comparison_report.csv with 8 standard columns:
+  employee_id, role, coverage_score, traceability_score, overall_status,
+  flag_count, flag_types, timestamp
 
-Design Features:
-  - Resumable: Skips employee_ids already recorded in the output CSV.
-  - Fault-tolerant: Catches individual generation/validation errors, logs them,
-    and continues batch processing.
-  - Rate-limit aware: Includes a configurable pause (default 1.5s) between API calls.
-  - Immediate flushing: Writes each completed row to disk immediately.
+Features:
+  - Resumable: Skips employee_ids already present in output CSV.
+  - Robust CSV Writing: Uses csv.DictWriter with safe field escaping.
+  - Graceful Error Handling: Catches individual exceptions, logs "Generation Failed",
+    writes clean row to CSV without unescaped raw error strings, and continues.
+  - Rate-Limit Aware: 1.5s delay between API calls.
+  - Progress Output: Prints "Case X/110: EMP-ID / Role -> Status".
 """
 
 import sys
@@ -41,7 +43,7 @@ ROLES = [
 ]
 
 SAMPLES_PER_ROLE = 11
-DELAY_BETWEEN_CALLS = 1.5  # seconds
+DELAY_BETWEEN_CALLS = 1.5  # seconds pause between API calls
 
 CSV_PATH = os.path.join(
     os.path.dirname(os.path.dirname(__file__)),
@@ -51,7 +53,7 @@ CSV_PATH = os.path.join(
 
 
 def generate_employee_batch():
-    """Generate a list of (employee_id, role) tuples for testing."""
+    """Generate structured list of (employee_id, role) tuples across all 10 roles."""
     batch = []
     role_slugs = {
         "Sales Executive": "SE",
@@ -74,13 +76,13 @@ def generate_employee_batch():
 
 
 def load_processed_ids(csv_file_path):
-    """Load set of already processed employee_ids if CSV exists."""
+    """Read set of already processed employee_ids from output CSV for resumption support."""
     processed = set()
     if os.path.exists(csv_file_path):
         with open(csv_file_path, mode="r", newline="", encoding="utf-8") as f:
             reader = csv.DictReader(f)
             for row in reader:
-                if "employee_id" in row and row["employee_id"]:
+                if row.get("employee_id"):
                     processed.add(row["employee_id"])
     return processed
 
@@ -90,7 +92,7 @@ def run_batch():
     print("SkillSprint AI - Phase 10: Comparison Batch Execution")
     print("=" * 70)
 
-    # Ensure DB tables and matrix data exist
+    # Initialize DB tables and load Ground-Truth Requirement Matrix
     setup_db()
     matrix_csv = os.path.join(
         os.path.dirname(os.path.dirname(__file__)),
@@ -134,20 +136,18 @@ def run_batch():
 
         for idx, (emp_id, role) in enumerate(batch, start=1):
             if emp_id in processed_ids:
-                print(f"[{idx}/{total_cases}] SKIPPED: {emp_id} ({role}) already in CSV")
+                print(f"Case {idx}/{total_cases}: {emp_id} / {role} -> SKIPPED (Already in CSV)")
                 continue
-
-            print(f"[{idx}/{total_cases}] Processing {emp_id} - {role}...", end="", flush=True)
 
             timestamp = datetime.now().isoformat()
             try:
                 res = compare(emp_id, role)
                 p2 = res.get("pipeline2_output") or {}
-                
-                coverage_score = float(p2.get("coverage_score", 0.0))
-                traceability_score = float(p2.get("traceability_score", 0.0))
+
+                coverage_score = float(p2.get("coverage_score", 0.0)) if p2 else 0.0
+                traceability_score = float(p2.get("traceability_score", 0.0)) if p2 else 0.0
                 overall_status = res.get("overall_status", "Generation Failed")
-                
+
                 flags = p2.get("flags", []) if isinstance(p2.get("flags"), list) else []
                 flag_count = len(flags)
                 flag_types_list = sorted(list(set(f.get("type", "") for f in flags if f.get("type"))))
@@ -166,11 +166,11 @@ def run_batch():
                 f.flush()
                 completed_in_run += 1
 
-                print(f" Done. Status={overall_status} | Coverage={coverage_score:.1f}% | Flags={flag_count}")
+                print(f"Case {idx}/{total_cases}: {emp_id} / {role} -> {overall_status}")
 
             except Exception as e:
                 failed_in_run += 1
-                print(f" FAILED. Error: {e}")
+                print(f"Case {idx}/{total_cases}: {emp_id} / {role} -> Generation Failed (Error: {e})")
                 writer.writerow({
                     "employee_id": emp_id,
                     "role": role,

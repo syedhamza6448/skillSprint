@@ -102,3 +102,10 @@ EMP-DE-001,DevOps/IT Engineer,100.0,100.0,Warning,10,Duplicate,2026-09-24T18:45:
 EMP-DE-002,DevOps/IT Engineer,100.0,100.0,Warning,10,Duplicate,2026-09-24T18:45:49.574303
 EMP-DE-003,DevOps/IT Engineer,100.0,100.0,Pass,0,,2026-09-24T18:46:19.778510
 EMP-DE-004,DevOps/IT Engineer,100.0,100.0,Pass,0,,2026-09-24T18:46:48.305171
+EMP-DE-005,DevOps/IT Engineer,100.0,100.0,Warning,1,Outdated-policy,2026-09-25T00:53:27.231348
+EMP-DE-006,DevOps/IT Engineer,100.0,100.0,Warning,1,Outdated-policy,2026-09-25T00:53:52.005517
+EMP-DE-007,DevOps/IT Engineer,0.0,0.0,Generation Failed,0,,2026-09-25T00:54:16.106533
+EMP-DE-008,DevOps/IT Engineer,100.0,100.0,Warning,1,Outdated-policy,2026-09-25T00:54:40.213809
+EMP-DE-009,DevOps/IT Engineer,100.0,100.0,Warning,1,Outdated-policy,2026-09-25T00:55:03.905382
+EMP-DE-010,DevOps/IT Engineer,100.0,100.0,Warning,1,Outdated-policy,2026-09-25T00:55:28.690062
+EMP-DE-011,DevOps/IT Engineer,100.0,100.0,Warning,1,Outdated-policy,2026-09-25T00:55:53.234994
