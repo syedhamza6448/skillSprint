@@ -131,6 +131,7 @@ def document_exists(file_hash):
 def load_matrix(csv_path):
     conn = get_connection()
     cursor = conn.cursor()
+    cursor.execute('DROP TABLE IF EXISTS requirement_matrix')
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS requirement_matrix (
             requirement_id TEXT PRIMARY KEY,
@@ -143,12 +144,10 @@ def load_matrix(csv_path):
             due_stage TEXT,
             competency_area TEXT,
             related_task TEXT,
-            related_assessment_topic TEXT
+            related_assessment_topic TEXT,
+            prerequisite_requirement_id TEXT
         )
     ''')
-    
-    # clear existing data if called multiple times
-    cursor.execute('DELETE FROM requirement_matrix')
     
     with open(csv_path, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
@@ -157,13 +156,15 @@ def load_matrix(csv_path):
                 INSERT INTO requirement_matrix (
                     requirement_id, role, policy_source_doc, source_section,
                     requirement_text, mandatory, priority, due_stage,
-                    competency_area, related_task, related_assessment_topic
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    competency_area, related_task, related_assessment_topic,
+                    prerequisite_requirement_id
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ''', (
                 row['requirement_id'], row['role'], row['policy_source_doc'],
                 row['source_section'], row['requirement_text'], row['mandatory'],
                 row['priority'], row['due_stage'], row['competency_area'],
-                row['related_task'], row['related_assessment_topic']
+                row['related_task'], row['related_assessment_topic'],
+                row.get('prerequisite_requirement_id', '')
             ))
             
     conn.commit()

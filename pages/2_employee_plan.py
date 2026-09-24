@@ -171,7 +171,7 @@ if generate_clicked:
             st.subheader("⚠️ Validation Flags")
             # Group by type for readability
             error_flags   = [f for f in flags if f.get("type") in ("Missing-mandatory", "Unsupported-claim", "Fail")]
-            warning_flags = [f for f in flags if f.get("type") in ("Outdated-policy", "Duplicate", "Warning")]
+            warning_flags = [f for f in flags if f.get("type") in ("Outdated-policy", "Duplicate", "Sequence-violation", "Warning")]
             info_flags    = [f for f in flags if f not in error_flags and f not in warning_flags]
 
             for flag in error_flags:
@@ -215,7 +215,7 @@ if generate_clicked:
                         for f in item["flags"]:
                             if f["type"] in ("Missing-mandatory", "Unsupported-claim", "Fail"):
                                 st.error(f"`{f['type']}`: {f['detail']}")
-                            elif f["type"] in ("Outdated-policy", "Duplicate"):
+                            elif f["type"] in ("Outdated-policy", "Duplicate", "Sequence-violation"):
                                 st.warning(f"`{f['type']}`: {f['detail']}")
                             else:
                                 st.info(f"`{f['type']}`: {f['detail']}")
