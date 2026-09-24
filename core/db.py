@@ -91,8 +91,15 @@ def setup_db():
         )
     ''')
 
+    cursor.execute("PRAGMA table_info(requirement_matrix)")
+    cols = [r[1] for r in cursor.fetchall()]
     conn.commit()
     conn.close()
+
+    if not cols or 'prerequisite_requirement_id' not in cols:
+        csv_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'role_requirement_matrix.csv')
+        if os.path.exists(csv_path):
+            load_matrix(csv_path)
 
 def insert_document(doc_data):
     conn = get_connection()
@@ -128,7 +135,9 @@ def document_exists(file_hash):
     conn.close()
     return bool(result)
 
-def load_matrix(csv_path):
+def load_matrix(csv_path=None):
+    if csv_path is None:
+        csv_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'role_requirement_matrix.csv')
     conn = get_connection()
     cursor = conn.cursor()
     cursor.execute('DROP TABLE IF EXISTS requirement_matrix')
