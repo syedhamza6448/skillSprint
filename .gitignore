@@ -1,6 +1,28 @@
+# ── Python / virtualenv ────────────────────────────────────────────
 venv/
-__pycache__/
-.env
-*.db
-.pytest_cache/
 .venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Secrets / environment ──────────────────────────────────────────
+.env
+.streamlit/secrets.toml   # NEVER commit real secrets
+
+# ── Test / coverage cache ──────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── SQLite databases ─────────────────────────────────────────────
+# skillsprint.db is intentionally committed (pre-populated for Streamlit Cloud).
+# Do NOT add a *.db rule here — it cannot be negated by a global gitignore.
+
+# ── OS / editor noise ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
