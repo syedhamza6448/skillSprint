@@ -16,9 +16,9 @@ __pycache__/
 .coverage
 htmlcov/
 
-# ── SQLite databases — EXCEPT the pre-populated deployment DB ──────
-*.db
-!skillsprint.db           # committed so the app has data on first deploy
+# ── SQLite databases ─────────────────────────────────────────────
+# skillsprint.db is intentionally committed (pre-populated for Streamlit Cloud).
+# Do NOT add a *.db rule here — it cannot be negated by a global gitignore.
 
 # ── OS / editor noise ─────────────────────────────────────────────
 .DS_Store
