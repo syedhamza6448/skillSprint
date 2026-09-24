@@ -34,7 +34,15 @@ import json
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
 from core.validation_pipeline import validate
-from core.db import get_matrix_rows_for_role
+from core.db import get_matrix_rows_for_role, setup_db, load_matrix
+
+def _ensure_db_initialized():
+    setup_db()
+    matrix_csv = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "role_requirement_matrix.csv")
+    if os.path.exists(matrix_csv):
+        load_matrix(matrix_csv)
+
+_ensure_db_initialized()
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 

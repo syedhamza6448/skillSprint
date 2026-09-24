@@ -1,0 +1,53 @@
+employee_id,role,coverage_score,traceability_score,overall_status,flag_count,flag_types,timestamp
+EMP-SE-001,Sales Executive,100.0,100.0,Warning,2,Duplicate;Outdated-policy,2026-09-24T14:16:41.312847
+EMP-SE-002,Sales Executive,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:17:06.801421
+EMP-SE-003,Sales Executive,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:17:27.984393
+EMP-SE-004,Sales Executive,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:17:48.536049
+EMP-SE-005,Sales Executive,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:18:11.910076
+EMP-SE-006,Sales Executive,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:18:33.010637
+EMP-SE-007,Sales Executive,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:19:08.796528
+EMP-SE-008,Sales Executive,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:19:33.483782
+EMP-SE-009,Sales Executive,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:19:53.804554
+EMP-SE-010,Sales Executive,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:20:15.342572
+EMP-SE-011,Sales Executive,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:20:35.932878
+EMP-CS-001,Customer Support Executive,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:20:55.464179
+EMP-CS-002,Customer Support Executive,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:21:13.248880
+EMP-CS-003,Customer Support Executive,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:21:30.650958
+EMP-CS-004,Customer Support Executive,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:21:48.559354
+EMP-CS-005,Customer Support Executive,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:22:06.254466
+EMP-CS-006,Customer Support Executive,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:22:23.922691
+EMP-CS-007,Customer Support Executive,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:22:42.961331
+EMP-CS-008,Customer Support Executive,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:23:00.746695
+EMP-CS-009,Customer Support Executive,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:23:18.408808
+EMP-CS-010,Customer Support Executive,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:23:36.147544
+EMP-CS-011,Customer Support Executive,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:33:06.760192
+EMP-HR-001,HR Executive,100.0,100.0,Pass,0,,2026-09-24T14:33:26.141116
+EMP-HR-002,HR Executive,100.0,100.0,Pass,0,,2026-09-24T14:33:44.531249
+EMP-HR-003,HR Executive,100.0,100.0,Pass,0,,2026-09-24T14:34:23.891134
+EMP-HR-004,HR Executive,100.0,100.0,Pass,0,,2026-09-24T14:34:42.226402
+EMP-HR-005,HR Executive,100.0,100.0,Pass,0,,2026-09-24T14:35:02.361498
+EMP-HR-006,HR Executive,100.0,100.0,Pass,0,,2026-09-24T14:35:22.034469
+EMP-HR-007,HR Executive,100.0,100.0,Pass,0,,2026-09-24T14:35:40.157143
+EMP-HR-008,HR Executive,100.0,100.0,Pass,0,,2026-09-24T14:36:37.141264
+EMP-HR-009,HR Executive,100.0,100.0,Pass,0,,2026-09-24T14:36:56.969796
+EMP-HR-010,HR Executive,100.0,100.0,Pass,0,,2026-09-24T14:37:16.040909
+EMP-HR-011,HR Executive,100.0,100.0,Pass,0,,2026-09-24T14:37:35.653891
+EMP-FA-001,Finance Associate,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:38:29.933336
+EMP-FA-002,Finance Associate,100.0,100.0,Warning,22,Duplicate;Outdated-policy,2026-09-24T14:38:49.207176
+EMP-FA-003,Finance Associate,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:39:52.281137
+EMP-FA-004,Finance Associate,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:40:15.628079
+EMP-FA-005,Finance Associate,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:40:37.618150
+EMP-FA-006,Finance Associate,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:41:00.266405
+EMP-FA-007,Finance Associate,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:41:24.962631
+EMP-FA-008,Finance Associate,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:41:45.222124
+EMP-FA-009,Finance Associate,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:42:05.607434
+EMP-FA-010,Finance Associate,100.0,100.0,Warning,1,Outdated-policy,2026-09-24T14:42:26.263371
+EMP-FA-011,Finance Associate,100.0,100.0,Warning,22,Duplicate;Outdated-policy,2026-09-24T14:42:47.388548
+EMP-OC-001,Operations Coordinator,100.0,100.0,Pass,0,,2026-09-24T14:43:06.175931
+EMP-OC-002,Operations Coordinator,100.0,100.0,Pass,0,,2026-09-24T14:43:26.243326
+EMP-OC-003,Operations Coordinator,100.0,100.0,Pass,0,,2026-09-24T14:43:43.785875
+EMP-OC-004,Operations Coordinator,100.0,100.0,Pass,0,,2026-09-24T14:44:15.713107
+EMP-OC-005,Operations Coordinator,100.0,100.0,Pass,0,,2026-09-24T14:44:47.559785
+EMP-OC-006,Operations Coordinator,100.0,100.0,Pass,0,,2026-09-24T14:45:05.597799
+EMP-OC-007,Operations Coordinator,100.0,100.0,Pass,0,,2026-09-24T14:45:22.265994
+EMP-OC-008,Operations Coordinator,100.0,100.0,Pass,0,,2026-09-24T14:46:03.211068
