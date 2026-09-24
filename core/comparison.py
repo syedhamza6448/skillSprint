@@ -46,7 +46,7 @@ def _item_status(covered: bool, flag_types: list) -> str:
         return STATUS_MANUAL_REVIEW
     if "Outdated-policy" in flag_set:
         return STATUS_OUTDATED
-    if "Duplicate" in flag_set:
+    if "Duplicate" in flag_set or "Sequence-violation" in flag_set:
         return STATUS_VERIFIED_WARNING
     if "Missing-mandatory" in flag_set:
         # Covered=True but also in missing_mandatory? Shouldn't happen, guard anyway

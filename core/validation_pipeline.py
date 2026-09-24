@@ -1,6 +1,23 @@
 import difflib
 from core import db
 
+STAGE_RANK = {
+    "day 1": 1, "day1": 1,
+    "week 1": 2, "week1": 2,
+    "week 2": 3, "week2": 3,
+    "week 3": 4, "week3": 4,
+    "week 4": 5, "week4": 5,
+    "month 1": 6, "month1": 6,
+    "month 2": 7, "month2": 7,
+    "month 3": 8, "month3": 8,
+}
+
+def parse_stage_rank(stage_str: str) -> int:
+    if not stage_str:
+        return 999
+    key = str(stage_str).strip().lower()
+    return STAGE_RANK.get(key, 999)
+
 def validate(employee_id, role, genai_output: dict) -> dict:
     matrix_rows = db.get_matrix_rows_for_role(role)
     all_matrix_rows_df = db.get_all_requirements_df()
@@ -9,12 +26,14 @@ def validate(employee_id, role, genai_output: dict) -> dict:
     mandatory_req_ids = set(row['requirement_id'] for row in matrix_rows if row['mandatory'] == 'Y')
     total_mandatory = len(mandatory_req_ids)
     
+    # Map requirement_id -> prerequisite_requirement_id for this role
+    prereq_map = {
+        row['requirement_id']: row.get('prerequisite_requirement_id', '').strip()
+        for row in matrix_rows
+        if row.get('prerequisite_requirement_id', '') and str(row.get('prerequisite_requirement_id', '')).strip()
+    }
+
     # Build a set of requirement_ids that are THEMSELVES legacy/superseded.
-    # A row is legacy if its competency_area is 'Outdated' OR its requirement_text
-    # contains the '[v0.9]' version tag used throughout the matrix CSV.
-    # We check the module's own requirement_id against this set — NOT the
-    # source_section — so current-policy modules that happen to cite the same
-    # section as a legacy row are never incorrectly flagged.
     legacy_req_ids = set()
     for _, row in all_matrix_rows_df.iterrows():
         comp_area = str(row.get('competency_area', '')).lower()
@@ -25,6 +44,13 @@ def validate(employee_id, role, genai_output: dict) -> dict:
     modules = genai_output.get('modules', [])
     total_modules = len(modules)
     
+    # Index generated modules by requirement_id -> due_stage
+    module_stages_by_req_id = {
+        mod.get('requirement_id'): mod.get('due_stage')
+        for mod in modules
+        if mod.get('requirement_id')
+    }
+
     covered_mandatory_set = set()
     flags = []
     
@@ -51,7 +77,8 @@ def validate(employee_id, role, genai_output: dict) -> dict:
             
         doc_id = mod.get('source_doc_id')
         section = mod.get('source_section')
-        module_name = mod.get('module_name')
+        module_name = mod.get('module_name') or req_id or f"Module {i + 1}"
+        due_stage = mod.get('due_stage', 'N/A')
         
         # Unsupported-claim detection
         if doc_id not in all_doc_ids:
@@ -66,9 +93,7 @@ def validate(employee_id, role, genai_output: dict) -> dict:
         if (doc_id, section) in valid_citations_set:
             valid_citations += 1
             
-        # Outdated-policy detection: flag only if THIS module's own requirement_id
-        # is itself a legacy/superseded row — not because some other row shares
-        # the same source_section.
+        # Outdated-policy detection
         if req_id in legacy_req_ids:
             flags.append({
                 "type": "Outdated-policy",
@@ -77,6 +102,28 @@ def validate(employee_id, role, genai_output: dict) -> dict:
                 "detail": f"source_section '{section}' appears in a legacy/superseded matrix row"
             })
             
+        # Sequence validation: check prerequisite ordering
+        prereq_id = prereq_map.get(req_id)
+        if prereq_id:
+            if prereq_id not in module_stages_by_req_id:
+                flags.append({
+                    "type": "Sequence-violation",
+                    "requirement_id": req_id,
+                    "module_name": module_name,
+                    "detail": f"Module {module_name} (due {due_stage}) requires prerequisite {prereq_id} which is missing or scheduled later"
+                })
+            else:
+                prereq_stage = module_stages_by_req_id[prereq_id]
+                mod_rank = parse_stage_rank(due_stage)
+                prereq_rank = parse_stage_rank(prereq_stage)
+                if prereq_rank > mod_rank:
+                    flags.append({
+                        "type": "Sequence-violation",
+                        "requirement_id": req_id,
+                        "module_name": module_name,
+                        "detail": f"Module {module_name} (due {due_stage}) requires prerequisite {prereq_id} which is missing or scheduled later"
+                    })
+
         # Duplicate detection
         for j in range(i + 1, total_modules):
             other_mod = modules[j]
@@ -113,7 +160,7 @@ def validate(employee_id, role, genai_output: dict) -> dict:
         })
         
     has_unsupported_claim = any(f['type'] == 'Unsupported-claim' for f in flags)
-    has_warning_flags = any(f['type'] in ['Duplicate', 'Outdated-policy'] for f in flags)
+    has_warning_flags = any(f['type'] in ['Duplicate', 'Outdated-policy', 'Sequence-violation'] for f in flags)
     
     if coverage_score < 100 or has_unsupported_claim:
         status = "Fail"

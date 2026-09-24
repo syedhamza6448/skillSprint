@@ -56,17 +56,16 @@ def main():
     
     md_files = sorted(glob.glob(os.path.join(drafts_dir, '*.md')))
     
-    for i, md_file in enumerate(md_files):
+    for md_file in md_files:
         filename = os.path.basename(md_file)
         name, _ = os.path.splitext(filename)
         
-        if i < 6:
-            # First half to PDF
+        doc_num = int(name.split('_')[0])
+        if doc_num in [1, 2, 3, 4, 5, 6, 13, 14, 15, 16]:
             out_path = os.path.join(out_dir, name + '.pdf')
             convert_to_pdf(md_file, out_path)
             print(f"Converted to PDF: {out_path}")
         else:
-            # Second half to DOCX
             out_path = os.path.join(out_dir, name + '.docx')
             convert_to_docx(md_file, out_path)
             print(f"Converted to DOCX: {out_path}")

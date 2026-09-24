@@ -8,12 +8,20 @@ from core.db import setup_db, insert_document, insert_chunks, document_exists
 
 MAX_FILE_SIZE = 10 * 1024 * 1024  # 10 MB
 
+def get_content_hash(raw_blocks):
+    text_content = "\n".join([b['text'] for b in raw_blocks if b.get('text')])
+    return hashlib.sha256(text_content.encode('utf-8')).hexdigest()
+
 def get_file_hash(filepath):
-    hasher = hashlib.sha256()
-    with open(filepath, 'rb') as f:
-        buf = f.read()
-        hasher.update(buf)
-    return hasher.hexdigest()
+    ext = os.path.splitext(filepath)[1].lower()
+    if ext == '.pdf':
+        raw_blocks = parse_pdf(filepath)
+    elif ext == '.docx':
+        raw_blocks = parse_docx(filepath)
+    else:
+        with open(filepath, 'rb') as f:
+            return hashlib.sha256(f.read()).hexdigest()
+    return get_content_hash(raw_blocks)
 
 def validate_document(filepath):
     if not os.path.isfile(filepath):
