@@ -77,6 +77,20 @@ def setup_db():
         )
     ''')
 
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS review_decisions (
+            decision_id TEXT PRIMARY KEY,
+            comparison_id TEXT,
+            employee_id TEXT,
+            role TEXT,
+            original_status TEXT,
+            reviewer_decision TEXT,
+            reviewer_notes TEXT,
+            timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            FOREIGN KEY(comparison_id) REFERENCES comparison_results(comparison_id)
+        )
+    ''')
+
     conn.commit()
     conn.close()
 
@@ -247,3 +261,90 @@ def log_comparison(employee_id, role, overall_status, coverage_score, traceabili
     conn.commit()
     conn.close()
     return comparison_id
+
+
+def log_review_decision(comparison_id, employee_id, role, original_status,
+                        reviewer_decision, reviewer_notes=""):
+    """Persist a reviewer action without touching the original Pipeline 1/2 output."""
+    conn = get_connection()
+    cursor = conn.cursor()
+    decision_id = str(uuid.uuid4())
+    cursor.execute(
+        'INSERT INTO review_decisions '
+        '(decision_id, comparison_id, employee_id, role, original_status, reviewer_decision, reviewer_notes) '
+        'VALUES (?, ?, ?, ?, ?, ?, ?)',
+        (decision_id, comparison_id, employee_id, role,
+         original_status, reviewer_decision, reviewer_notes)
+    )
+    conn.commit()
+    conn.close()
+    return decision_id
+
+
+# ── Dashboard query helpers ────────────────────────────────────────────────────
+
+def get_comparison_results_df():
+    """Return all comparison results as a DataFrame, newest first."""
+    conn = get_connection()
+    df = pd.read_sql_query(
+        'SELECT * FROM comparison_results ORDER BY timestamp DESC', conn
+    )
+    conn.close()
+    return df
+
+
+def get_generation_log_df():
+    """Return generation log as a DataFrame."""
+    conn = get_connection()
+    df = pd.read_sql_query(
+        'SELECT * FROM generation_log ORDER BY timestamp DESC', conn
+    )
+    conn.close()
+    return df
+
+
+def get_review_decisions_df():
+    """Return all reviewer decisions as a DataFrame."""
+    conn = get_connection()
+    df = pd.read_sql_query(
+        'SELECT * FROM review_decisions ORDER BY timestamp DESC', conn
+    )
+    conn.close()
+    return df
+
+
+def get_review_queue_df():
+    """Return comparison results that are not Pass and not yet Approved,
+    joined with the latest reviewer decision (if any).
+    """
+    conn = get_connection()
+    df = pd.read_sql_query(
+        '''
+        SELECT
+            cr.comparison_id,
+            cr.employee_id,
+            cr.role,
+            cr.overall_status,
+            cr.coverage_score,
+            cr.traceability_score,
+            cr.flags_json,
+            cr.timestamp,
+            rd.reviewer_decision,
+            rd.reviewer_notes
+        FROM comparison_results cr
+        LEFT JOIN (
+            SELECT comparison_id, reviewer_decision, reviewer_notes
+            FROM review_decisions
+            WHERE decision_id IN (
+                SELECT decision_id FROM review_decisions rd2
+                ORDER BY timestamp DESC
+            )
+            GROUP BY comparison_id
+        ) rd ON cr.comparison_id = rd.comparison_id
+        WHERE cr.overall_status != 'Pass'
+        ORDER BY cr.timestamp DESC
+        ''',
+        conn
+    )
+    conn.close()
+    return df
