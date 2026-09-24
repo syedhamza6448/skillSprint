@@ -1,0 +1,50 @@
+﻿NEXACORE SOLUTIONS PVT. LTD.
+EMPLOYEE FAQ
+Document ID: DOC-020
+Version: 1.0
+Effective Date: 2023-01-01
+
+=============================================================
+FREQUENTLY ASKED QUESTIONS
+=============================================================
+
+Q1: When do I get my first paycheck?
+A: Salaries are processed on the 25th of each month. If your start date is after the 15th, your first full paycheck will be at the end of the following month. Prorated pay for partial months is included.
+
+Q2: How many days of annual leave do I get?
+A: Per Leave Policy v2 (DOC-005), you are entitled to 14 days of annual leave per year after completing 6 months of service. During the first 6 months, you accrue 1 day per month from Month 4 onwards.
+
+NOTE [CONFLICT-003-REFERENCE]: Some older employee guides state 10 days annual leave. This is incorrect and based on the superseded Leave Policy v1 (DOC-004). The correct current entitlement is 14 days (DOC-005).
+
+Q3: What is the probation period?
+A: The probation period is 3 months, as per HR Policy v2 (DOC-003). Note: Older joining letters issued before 2024 may reference 6 months — that figure has been superseded.
+
+Q4: How do I apply for leave?
+A: Submit a leave application through the HRMS portal at least 5 business days before your intended leave. Your line manager must approve it. For urgent/emergency leave, contact your manager directly by phone or in person.
+
+Q5: What do I do if I feel I am being harassed at work?
+A: Report the issue to HR immediately. You may also submit an anonymous report via the ethics hotline. NexaCore has a zero-tolerance policy for harassment (see DOC-007). Retaliation for good-faith reports is itself a policy violation.
+
+Q6: Can I work from home?
+A: Work-from-home (WFH) arrangements are at the discretion of your line manager and are role-dependent. Customer Support and Software Support roles may be eligible for hybrid arrangements after a 3-month onboarding period. Sales Executives and Operations Coordinators are primarily office-based.
+
+Q7: Who do I contact for IT issues?
+A: Submit a request to helpdesk.nexacore.internal or call the IT helpdesk at ext. 100. Response SLAs are defined in the IT Process Manual (DOC-019).
+
+Q8: How do I access my pay slips?
+A: Pay slips are available on the HRMS self-service portal. Contact HR if you experience access issues.
+
+Q9: What is the dress code?
+A: Business casual Monday-Thursday. Casual Friday. Client-facing meetings require formal business attire. See DOC-007 for details.
+
+Q10: How are performance reviews conducted?
+A: Biannual reviews are held in June and December. Your manager will schedule a one-on-one review, complete a KPI scorecard, and provide written feedback. You will receive written results within 5 business days.
+
+Q11: What training do I need to complete in my first month?
+A: All employees must complete company orientation, information security training, data privacy briefing, and code of conduct acknowledgment in Week 1. Role-specific training continues through Weeks 2-4. See your Role Description and the Onboarding Checklist in your HRMS profile.
+
+Q12: Can I use my personal phone to access company email?
+A: Yes, but only via the approved MDM app (details provided by IT on Day 1). Personal devices are not permitted direct access to client data systems.
+
+---
+END OF DOCUMENT — Employee FAQ (DOC-020)

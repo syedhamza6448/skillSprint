@@ -1,0 +1,64 @@
+﻿NEXACORE SOLUTIONS PVT. LTD.
+CUSTOMER SUPPORT STANDARD OPERATING PROCEDURE (SOP)
+Document ID: DOC-010
+Version: 1.0
+Effective Date: 2023-01-01
+
+=============================================================
+SECTION 1: PURPOSE
+=============================================================
+
+1.1 This SOP defines the standard processes for the Customer Support & Success department at NexaCore Solutions.
+
+=============================================================
+SECTION 2: TICKET HANDLING PROCEDURE
+=============================================================
+
+2.1 All customer support tickets are received via email, phone, or the NexaCRM Pro client portal.
+2.2 Tickets are categorized by severity:
+    - P1 (Critical): System down, data loss risk — response within 1 hour, resolution target 4 hours
+    - P2 (High): Major feature broken — response within 4 hours, resolution target 24 hours
+    - P3 (Medium): Minor issue, workaround available — response within 24 hours, resolution target 72 hours
+    - P4 (Low): General inquiry, cosmetic issue — response within 48 hours
+
+2.3 All tickets must be logged in NexaCRM Pro within 30 minutes of receipt.
+
+NOTE [CONFLICT-009]: The Company Handbook (DOC-001) states customer emails must be responded to within 24 hours as a general standard. The Customer Support SOP (DOC-010) defines more granular SLA-based response times by severity. DOC-010 takes precedence for Support staff.
+
+=============================================================
+SECTION 3: ESCALATION PATH
+=============================================================
+
+3.1 P1 tickets must be escalated to the Senior Support Engineer and Team Leader immediately upon receipt.
+3.2 P2 tickets unresolved after 12 hours must be escalated to Team Leader.
+3.3 Any client threatening legal action must be escalated to the Support Manager and Legal team immediately.
+3.4 Recurring issues (same client, 3+ P2/P3 tickets in 30 days) must be flagged for a Customer Success Review.
+
+=============================================================
+SECTION 4: COMMUNICATION STANDARDS
+=============================================================
+
+4.1 All client communications must be professional, empathetic, and solution-oriented.
+4.2 Use of slang, casual language, or emoji in client communications is not permitted.
+4.3 Call recordings may be reviewed for quality assurance. Employees consent to this monitoring upon employment.
+4.4 Hold time on phone calls must not exceed 3 minutes without providing an update to the client.
+
+=============================================================
+SECTION 5: KNOWLEDGE BASE MAINTENANCE
+=============================================================
+
+5.1 Support Executives must document solutions for novel issues in the NexaCore internal knowledge base within 24 hours of resolution.
+5.2 Knowledge base articles must be reviewed and updated quarterly.
+
+=============================================================
+SECTION 6: PERFORMANCE METRICS
+=============================================================
+
+6.1 Customer Support Executives are evaluated on:
+    - First Contact Resolution Rate (target: 75%)
+    - Customer Satisfaction Score / CSAT (target: 4.2/5.0)
+    - Average Handle Time
+    - SLA Compliance Rate (target: 95%)
+
+---
+END OF DOCUMENT — Customer Support SOP (DOC-010)

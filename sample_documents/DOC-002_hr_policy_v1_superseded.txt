@@ -1,0 +1,57 @@
+﻿NEXACORE SOLUTIONS PVT. LTD.
+HR POLICY MANUAL v1 — SUPERSEDED
+Document ID: DOC-002
+Version: 1.0
+Effective Date: 2021-03-01
+Superseded By: HR Policy Manual v2 (DOC-003), effective 2024-01-01
+
+*** THIS DOCUMENT HAS BEEN SUPERSEDED. REFER TO DOC-003 FOR CURRENT POLICY. ***
+
+=============================================================
+SECTION 1: RECRUITMENT & HIRING
+=============================================================
+
+1.1 All new hires must pass a background verification check before their start date.
+1.2 Offer letters must be signed by both the candidate and the HR Head.
+1.3 New employees must submit the following on Day 1: CNIC copy, educational certificates, 2 passport-size photos, bank account details.
+
+=============================================================
+SECTION 2: PROBATION PERIOD [SUPERSEDED]
+=============================================================
+
+2.1 All employees undergo a 6-month probationary period.
+
+NOTE [VERSION-001]: This clause is SUPERSEDED. The current probation period is 3 months as per HR Policy v2 (DOC-003). Do not apply this 6-month figure.
+
+2.2 During probation, no annual leave is accrued.
+
+NOTE [CONFLICT-004]: HR Policy v2 (DOC-003) states that employees accrue leave from Month 4 onwards, even during the final months of probation. DOC-003 supersedes this clause.
+
+=============================================================
+SECTION 3: COMPENSATION [SUPERSEDED]
+=============================================================
+
+3.1 Salary increments are awarded once per year in July.
+
+NOTE [VERSION-002]: HR Policy v2 (DOC-003) moved the increment cycle to January. Effective 2024, all increments are processed in January. This clause is superseded.
+
+3.2 Overtime pay is applicable for hours worked beyond 48 hours per week, at 1.5x the regular hourly rate.
+
+=============================================================
+SECTION 4: LEAVE POLICY [SUPERSEDED — SEE DOC-004 AND DOC-005]
+=============================================================
+
+4.1 Annual Leave: 10 days per year (superseded — see DOC-005 for 14 days).
+4.2 Sick Leave: 7 days per year with medical certificate required for absences exceeding 2 days.
+4.3 Maternity Leave: 84 days (12 weeks) paid leave.
+
+=============================================================
+SECTION 5: PERFORMANCE REVIEW [SUPERSEDED]
+=============================================================
+
+5.1 Annual performance reviews are conducted in December each year.
+
+NOTE [VERSION-003]: HR Policy v2 schedules reviews in June and December (biannual). This annual-only clause is superseded.
+
+---
+END OF DOCUMENT — HR Policy Manual v1 — SUPERSEDED (DOC-002)

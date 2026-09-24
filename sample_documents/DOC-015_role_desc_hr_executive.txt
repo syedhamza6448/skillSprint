@@ -1,0 +1,64 @@
+﻿NEXACORE SOLUTIONS PVT. LTD.
+ROLE DESCRIPTION — HR EXECUTIVE
+Document ID: DOC-015
+Version: 1.0
+Role ID: R03
+Department: Human Resources
+
+=============================================================
+SECTION 1: ROLE SUMMARY
+=============================================================
+
+The HR Executive supports the Human Resources department in recruitment, employee relations, onboarding, performance management, and policy implementation.
+
+=============================================================
+SECTION 2: KEY RESPONSIBILITIES
+=============================================================
+
+- Coordinate end-to-end recruitment (job posting, screening, scheduling interviews, offer letters)
+- Manage employee onboarding and offboarding processes
+- Maintain accurate employee records in the HRMS
+- Support the performance review cycle (biannual, June and December)
+- Administer employee leave records and resolve leave disputes
+- Conduct HR orientation sessions for new joiners
+- Advise employees and managers on HR policies and procedures
+- Handle confidential employee matters with discretion
+- Support disciplinary and grievance procedures
+
+=============================================================
+SECTION 3: MANDATORY COMPETENCIES
+=============================================================
+
+- Thorough knowledge of NexaCore HR policies (HR Policy v2, DOC-003)
+- Knowledge of Leave Policy v2 (DOC-005)
+- Familiarity with Pakistani labor laws and SECP regulations
+- HRMS proficiency (training required within 30 days)
+- Confidentiality and data privacy (PECO Data Privacy Act compliance)
+- Strong interpersonal and conflict-resolution skills
+
+=============================================================
+SECTION 4: MANDATORY ONBOARDING REQUIREMENTS
+=============================================================
+
+- Company orientation (Day 1)
+- HR Policy v2 deep-dive training (Week 1-2)
+- Leave Policy v2 training (Week 1)
+- Recruitment and onboarding process training (Week 2-3)
+- HRMS system training (Week 1-2)
+- Data privacy and employee data handling training (Week 1)
+- Information security awareness training (Week 1)
+- Code of conduct and workplace conduct policy training (Week 1)
+- Pakistani labor law overview session (Week 3)
+- Supervised conduct of one full new-employee orientation session (Week 4)
+
+=============================================================
+SECTION 5: KPIs
+=============================================================
+
+- Time-to-fill ratio for open positions (target: under 30 days)
+- New employee onboarding satisfaction score (target: 4.0/5.0)
+- Leave record accuracy (audited quarterly)
+- Performance review completion rate (target: 100%)
+
+---
+END OF DOCUMENT — Role Description: HR Executive (DOC-015)

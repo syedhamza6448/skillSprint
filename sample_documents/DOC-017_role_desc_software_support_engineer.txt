@@ -1,0 +1,62 @@
+﻿NEXACORE SOLUTIONS PVT. LTD.
+ROLE DESCRIPTION — SOFTWARE SUPPORT ENGINEER
+Document ID: DOC-017
+Version: 1.0
+Role ID: R07
+Department: Software & Technical Support
+
+=============================================================
+SECTION 1: ROLE SUMMARY
+=============================================================
+
+The Software Support Engineer provides advanced technical support for the NexaCRM Pro platform, including bug investigation, client-side configuration, API integrations, and escalated P1/P2 ticket resolution.
+
+=============================================================
+SECTION 2: KEY RESPONSIBILITIES
+=============================================================
+
+- Investigate and resolve escalated P1 and P2 support tickets
+- Diagnose platform bugs and coordinate bug reports with the Product Engineering team
+- Assist clients with NexaCRM Pro configuration and API integration
+- Write and maintain technical documentation and troubleshooting guides
+- Contribute to the internal knowledge base with solutions for complex issues
+- Conduct technical onboarding sessions for new enterprise clients
+- Perform root cause analysis for recurring issues
+- Monitor platform health dashboards and respond to alerts
+
+=============================================================
+SECTION 3: MANDATORY COMPETENCIES
+=============================================================
+
+- Proficiency in Python, REST APIs, SQL (demonstrated or proven via assessment)
+- NexaCRM Pro architecture and data model knowledge (training within 30 days)
+- ITIL Foundation understanding (certification preferred, training within 60 days)
+- Secure coding and data handling practices (information security training required within 5 days)
+- Advanced data privacy requirements for client data handling (training within 5 days)
+
+=============================================================
+SECTION 4: MANDATORY ONBOARDING REQUIREMENTS
+=============================================================
+
+- Company orientation (Day 1)
+- NexaCRM Pro technical architecture deep-dive (Week 1-3)
+- API documentation and integration patterns training (Week 2-3)
+- Information security advanced training (Week 1)
+- Data privacy advanced training for technical staff (Week 1)
+- Code of conduct acknowledgment (Day 1)
+- Bug reporting and escalation procedures training (Week 1-2)
+- Supervised P1 ticket shadow resolution (Weeks 2-3, minimum 5 tickets)
+- Technical competency assessment (Python/SQL/REST API) (Week 3)
+- Secure coding practices workshop (Week 2)
+
+=============================================================
+SECTION 5: KPIs
+=============================================================
+
+- P1 resolution time (target: within 4 hours)
+- P2 resolution time (target: within 24 hours)
+- Knowledge base contribution (target: minimum 2 articles/month)
+- Recurring issue reduction rate (quarterly metric)
+
+---
+END OF DOCUMENT — Role Description: Software Support Engineer (DOC-017)

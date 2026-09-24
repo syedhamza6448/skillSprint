@@ -1,5 +1,27 @@
 # SkillSprint AI — 2-Day Build Plan
 
+---
+
+## 📍 Progress Log (updated as we go)
+
+| Phase | Status | Notes |
+|---|---|---|
+| Project scaffold (repo, folder structure, venv, requirements.txt, git init) | ✅ Done | Built via PowerShell commands |
+| Day 0: Org / documents / Requirement Matrix / prompt templates | ✅ Done | 22 docs (DOC-001–022), 155-row matrix, prompt_v1.yaml, org brief. 11 adversarial injections, 19 conflict/version markers. |
+| Phase 1: Document ingestion (upload, validate, parse, chunk) | ⬜ Not started | |
+| Phase 2: Requirement Matrix loaded into app | ⬜ Not started | |
+| Phase 3: Pipeline 1 — GenAI generation | ⬜ Not started | |
+| Phase 4: Pipeline 2 — Python validation | ⬜ Not started | |
+| Phase 5: Comparison engine | ⬜ Not started | |
+| Phase 6: Manual review + sequencing checks | ⬜ Not started | |
+| Phase 7: Prompt-injection / adversarial testing | ⬜ Not started | |
+| Phase 8: Dashboards & UI | ⬜ Not started | |
+| Phase 9: Reports & export | ⬜ Not started | |
+| Phase 10: Testing pass | ⬜ Not started | |
+| Phase 11: Deployment + docs + video | ⬜ Not started | |
+
+---
+
 **Goal:** Ship a working, evaluable version of SkillSprint AI that satisfies every
 **mandatory** functional and non-functional requirement in the SRS, using the
 leanest stack possible (Streamlit + SQLite + Gemini API), within ~16 focused

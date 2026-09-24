@@ -1,0 +1,62 @@
+﻿NEXACORE SOLUTIONS PVT. LTD.
+ROLE DESCRIPTION — CUSTOMER SUPPORT EXECUTIVE
+Document ID: DOC-014
+Version: 1.0
+Role ID: R02
+Department: Customer Support & Success
+
+=============================================================
+SECTION 1: ROLE SUMMARY
+=============================================================
+
+The Customer Support Executive is the primary point of contact for NexaCore's clients, handling technical inquiries, product support, and issue resolution via phone, email, and the NexaCRM Pro client portal.
+
+=============================================================
+SECTION 2: KEY RESPONSIBILITIES
+=============================================================
+
+- Handle inbound client support tickets across all severity levels (P1-P4)
+- Log and categorize all tickets in NexaCRM Pro within 30 minutes of receipt
+- Resolve technical issues within defined SLA timeframes
+- Escalate unresolved P1/P2 tickets to Senior Support Engineer or Team Leader
+- Document solutions for novel issues in the internal knowledge base
+- Participate in quarterly knowledge base reviews
+- Conduct client satisfaction follow-ups post-resolution
+- Maintain CSAT score above 4.2/5.0
+
+=============================================================
+SECTION 3: MANDATORY COMPETENCIES
+=============================================================
+
+- Strong technical aptitude (familiarity with SaaS products)
+- NexaCRM Pro product knowledge (training required within 30 days)
+- Professional written and verbal communication skills
+- Understanding of ITIL or equivalent service management framework (training within 60 days)
+- Empathy and problem-solving orientation
+
+=============================================================
+SECTION 4: MANDATORY ONBOARDING REQUIREMENTS
+=============================================================
+
+- Company orientation (Day 1)
+- NexaCRM Pro product and portal training (Week 1-3)
+- Customer Support SOP and SLA training (Week 1)
+- Ticket categorization and escalation path training (Week 1)
+- Communication standards training (Week 2)
+- Information security and client data handling training (Week 1)
+- Code of conduct acknowledgment (Day 1)
+- Knowledge base usage and contribution training (Week 2)
+- Supervised live ticket handling (Weeks 3-4, minimum 20 tickets)
+- Support KPI assessment (Week 4)
+
+=============================================================
+SECTION 5: KPIs
+=============================================================
+
+- First Contact Resolution Rate (target: 75%)
+- CSAT Score (target: 4.2/5.0)
+- SLA Compliance Rate (target: 95%)
+- Ticket logging timeliness (target: 100% within 30 minutes)
+
+---
+END OF DOCUMENT — Role Description: Customer Support Executive (DOC-014)

@@ -1,0 +1,62 @@
+﻿NEXACORE SOLUTIONS PVT. LTD.
+COMPLIANCE & LEGAL GUIDELINES
+Document ID: DOC-021
+Version: 1.0
+Effective Date: 2023-06-01
+
+=============================================================
+SECTION 1: OVERVIEW
+=============================================================
+
+1.1 NexaCore Solutions operates under multiple legal and regulatory frameworks. This document summarizes mandatory compliance requirements for all employees.
+
+=============================================================
+SECTION 2: REGULATORY COMPLIANCE
+=============================================================
+
+2.1 Securities & Exchange Commission of Pakistan (SECP)
+All corporate filings, disclosures, and financial reporting must comply with SECP requirements. Finance staff and senior management are primarily responsible for SECP-related compliance.
+
+2.2 Federal Board of Revenue (FBR)
+NexaCore is registered with FBR for income tax and sales tax purposes. All tax computations and filings are managed by the Finance department. Finance Associates must complete FBR tax regulations training within their first 30 days.
+
+2.3 PECO Data Privacy Act
+All employees handling personal data (employee or client) must comply with the PECO Data Privacy Act. Key obligations include lawful basis for processing, data minimization, and respecting data subject rights. See DOC-008 for full details.
+
+2.4 Payment Card Industry Data Security Standard (PCI-DSS)
+The Finance team and any staff handling payment data must adhere to PCI-DSS controls. Annual compliance attestation is required.
+
+=============================================================
+SECTION 3: CONTRACT MANAGEMENT
+=============================================================
+
+3.1 All client contracts must be reviewed by the Legal team before signing.
+3.2 Non-Disclosure Agreements (NDAs) are required for all client engagements before sharing any proprietary information.
+3.3 Employees must not sign any contract on behalf of NexaCore without explicit authorization from the relevant Director or above.
+
+=============================================================
+SECTION 4: INTELLECTUAL PROPERTY
+=============================================================
+
+4.1 All work product created by employees during employment is the intellectual property of NexaCore Solutions.
+4.2 Employees must not use open-source components with incompatible licenses (e.g., GPL) in NexaCore proprietary products without Legal team approval.
+4.3 Confidential NexaCore source code, product designs, and client configurations must not be shared externally.
+
+=============================================================
+SECTION 5: ANTI-MONEY LAUNDERING (AML)
+=============================================================
+
+5.1 NexaCore employees must report any suspected money laundering or financial crime to the Compliance Officer immediately.
+5.2 Finance staff receive mandatory AML awareness training within 30 days.
+
+=============================================================
+SECTION 6: TRAINING REQUIREMENTS
+=============================================================
+
+6.1 All employees: Data privacy compliance briefing (Week 1).
+6.2 Finance staff: FBR tax compliance, PCI-DSS, and AML training (within 30 days).
+6.3 Legal and senior management: SECP compliance training (within 30 days).
+6.4 Annual compliance refresher: mandatory for all employees.
+
+---
+END OF DOCUMENT — Compliance & Legal Guidelines (DOC-021)

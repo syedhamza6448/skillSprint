@@ -1,0 +1,63 @@
+﻿NEXACORE SOLUTIONS PVT. LTD.
+ROLE DESCRIPTION — FINANCE ASSOCIATE
+Document ID: DOC-016
+Version: 1.0
+Role ID: R04
+Department: Finance & Accounts
+
+=============================================================
+SECTION 1: ROLE SUMMARY
+=============================================================
+
+The Finance Associate handles day-to-day financial operations including accounts payable, accounts receivable, expense processing, and financial reporting support.
+
+=============================================================
+SECTION 2: KEY RESPONSIBILITIES
+=============================================================
+
+- Log and process vendor invoices within 24 hours of receipt
+- Coordinate payment approvals per Finance SOP authorization thresholds
+- Issue client invoices within 3 business days of service delivery
+- Monitor and follow up on overdue client payments
+- Process employee expense reimbursements in the monthly payroll cycle
+- Prepare data for monthly financial reports
+- Ensure compliance with FBR tax filing requirements
+- Maintain accurate financial records in the accounting system
+- Support quarterly and annual audits
+
+=============================================================
+SECTION 3: MANDATORY COMPETENCIES
+=============================================================
+
+- Proficiency in NexaCore accounting software (training required within 30 days)
+- Understanding of Finance SOP authorization thresholds and approval procedures
+- Knowledge of FBR tax regulations (withholding tax, GST)
+- Data accuracy and attention to detail
+- Confidentiality in handling financial data
+
+=============================================================
+SECTION 4: MANDATORY ONBOARDING REQUIREMENTS
+=============================================================
+
+- Company orientation (Day 1)
+- Finance & Accounts SOP training (Week 1-2)
+- Accounting software training (Week 1-3)
+- Tax compliance and FBR regulations training (Week 2-3)
+- Payment authorization procedures and approval thresholds training (Week 1)
+- Data privacy and financial data handling training (Week 1)
+- Information security awareness training (Week 1)
+- Code of conduct acknowledgment (Day 1)
+- Month-end reporting process training (Week 3-4)
+- Supervised processing of a complete month-end cycle (Week 4)
+
+=============================================================
+SECTION 5: KPIs
+=============================================================
+
+- Invoice processing time (target: 100% within 24 hours)
+- Payment accuracy rate (target: 99.5%)
+- Expense reimbursement cycle time (target: within payroll month)
+- Tax filing compliance (target: 100% on-time)
+
+---
+END OF DOCUMENT — Role Description: Finance Associate (DOC-016)

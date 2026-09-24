@@ -1,0 +1,51 @@
+﻿NEXACORE SOLUTIONS PVT. LTD.
+LEAVE POLICY v1 — SUPERSEDED
+Document ID: DOC-004
+Version: 1.0
+Effective Date: 2021-03-01
+Superseded By: Leave Policy v2 (DOC-005), effective 2024-01-01
+
+*** THIS DOCUMENT HAS BEEN SUPERSEDED. REFER TO DOC-005 FOR CURRENT POLICY. ***
+
+=============================================================
+SECTION 1: ANNUAL LEAVE [SUPERSEDED]
+=============================================================
+
+1.1 All employees are entitled to 10 days of annual leave per calendar year.
+
+NOTE [VERSION-004]: SUPERSEDED. Leave Policy v2 (DOC-005) entitles employees to 14 days annual leave. Apply DOC-005.
+
+1.2 Annual leave must be approved by the line manager at least 3 days in advance.
+1.3 Unused annual leave can be carried forward for up to 6 months into the next year.
+
+=============================================================
+SECTION 2: SICK LEAVE [SUPERSEDED]
+=============================================================
+
+2.1 Employees are entitled to 7 days of sick leave per year.
+
+NOTE [CONFLICT-005]: Leave Policy v2 (DOC-005) grants 10 days sick leave. DOC-005 supersedes this clause.
+
+2.2 Sick leave exceeding 2 consecutive days requires a medical certificate from a registered physician.
+
+=============================================================
+SECTION 3: MATERNITY / PATERNITY LEAVE [SUPERSEDED]
+=============================================================
+
+3.1 Female employees are entitled to 12 weeks (84 days) of paid maternity leave.
+
+NOTE [VERSION-005]: Leave Policy v2 extends maternity leave to 16 weeks. DOC-005 supersedes this clause.
+
+3.2 Paternity leave: 3 days paid leave for male employees upon birth of a child.
+
+NOTE [CONFLICT-006]: Leave Policy v2 extends paternity leave to 7 days. DOC-005 supersedes this clause.
+
+=============================================================
+SECTION 4: PUBLIC HOLIDAYS
+=============================================================
+
+4.1 NexaCore observes all public holidays declared by the Government of Pakistan.
+4.2 If a public holiday falls on a weekend, a compensatory day off is granted on the next working day.
+
+---
+END OF DOCUMENT — Leave Policy v1 — SUPERSEDED (DOC-004)

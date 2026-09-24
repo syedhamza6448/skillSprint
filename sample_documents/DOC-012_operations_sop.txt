@@ -1,0 +1,59 @@
+﻿NEXACORE SOLUTIONS PVT. LTD.
+OPERATIONS DEPARTMENT STANDARD OPERATING PROCEDURE (SOP)
+Document ID: DOC-012
+Version: 1.0
+Effective Date: 2023-01-01
+
+=============================================================
+SECTION 1: PURPOSE
+=============================================================
+
+1.1 This SOP defines the standard processes for the Operations department.
+
+=============================================================
+SECTION 2: WORKING HOURS (OPERATIONS-SPECIFIC)
+=============================================================
+
+2.1 Operations Coordinators are required to be available from 9:00 AM to 7:00 PM on weekdays.
+
+NOTE [CONFLICT-001-REFERENCE]: The Company Handbook (DOC-001) states standard hours end at 6:00 PM. For Operations Coordinators, this departmental SOP takes precedence and extends availability to 7:00 PM.
+
+2.2 Operations staff participate in an on-call rotation for after-hours emergencies.
+2.3 Overtime for hours worked beyond 8 hours per day is compensated per the HR Policy (DOC-003).
+
+=============================================================
+SECTION 3: VENDOR & SUPPLIER MANAGEMENT
+=============================================================
+
+3.1 All vendor contracts must be reviewed and renewed by the Operations team annually.
+3.2 New vendors must be evaluated against the NexaCore Vendor Assessment Checklist before engagement.
+3.3 Vendor performance reviews are conducted quarterly.
+
+=============================================================
+SECTION 4: FACILITY MANAGEMENT
+=============================================================
+
+4.1 Operations Coordinators are responsible for maintaining office supplies at adequate levels.
+4.2 Maintenance requests must be logged in the Facilities Management System within 24 hours of identifying an issue.
+4.3 Emergency maintenance (affecting operations or safety) must be reported to the Operations Manager immediately.
+
+=============================================================
+SECTION 5: LOGISTICS & PROCUREMENT
+=============================================================
+
+5.1 All procurement requests must be submitted via the purchase request system.
+5.2 Procurement requests above PKR 50,000 require Operations Manager approval.
+5.3 Requests above PKR 200,000 require CFO approval.
+5.4 Preferred vendor lists are maintained by the Operations team and must be consulted before approaching new vendors.
+
+=============================================================
+SECTION 6: PERFORMANCE METRICS
+=============================================================
+
+6.1 Operations Coordinators are evaluated on:
+    - Procurement cycle time (target: under 5 business days for standard requests)
+    - Vendor SLA compliance rate (target: 90%)
+    - Facilities maintenance response time (target: 98% of requests resolved within SLA)
+
+---
+END OF DOCUMENT — Operations Department SOP (DOC-012)

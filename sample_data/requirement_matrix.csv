@@ -1,0 +1,156 @@
+﻿requirement_id,role,policy_requirement,process_requirement,competency,mandatory_optional,priority,source_document_id,source_section_id,assessment_requirement
+REQ-001,Sales Executive,Complete company orientation on Day 1,Attend orientation session,Company awareness,Mandatory,High,DOC-001,Section 4.1,Orientation attendance confirmation
+REQ-002,Sales Executive,Information security awareness training within Week 1,Complete IS training module,Information security basics,Mandatory,High,DOC-006,Section 7.1,IS awareness quiz (pass >=70%)
+REQ-003,Sales Executive,Data privacy and compliance briefing within Week 1,Complete data privacy module,Data privacy awareness,Mandatory,High,DOC-008,Section 5.1,Data privacy quiz (pass >=70%)
+REQ-004,Sales Executive,Code of conduct acknowledgment on Day 1,Sign code of conduct form,Professional conduct,Mandatory,High,DOC-007,Section 2.0,Signed acknowledgment form
+REQ-005,Sales Executive,NexaCRM Pro product training completed within 30 days,Complete CRM training and certification,NexaCRM Pro proficiency,Mandatory,High,DOC-013,Section 4.0,NexaCRM Pro certification assessment
+REQ-006,Sales Executive,Sales process and pipeline management training (Week 1-2),Complete pipeline training,Sales pipeline management,Mandatory,High,DOC-009,Section 2.0,Pipeline management quiz
+REQ-007,Sales Executive,Proposal preparation and approval process training (Week 2),Complete proposal training,Proposal writing,Mandatory,High,DOC-009,Section 4.0,Proposal preparation quiz
+REQ-008,Sales Executive,Data privacy and client data handling briefing (Week 1),Complete client data handling module,Client data handling,Mandatory,High,DOC-008,Section 3.0,Client data handling assessment
+REQ-009,Sales Executive,Sales KPI and reporting training (Week 2),Complete KPI training,KPI tracking,Mandatory,Medium,DOC-009,Section 6.0,KPI reporting quiz
+REQ-010,Sales Executive,Role-play sales demonstration assessment passed (Week 4),Complete demo assessment,Product demonstration,Mandatory,High,DOC-013,Section 4.0,Sales demo role-play scored >=70%
+REQ-011,Sales Executive,Negotiation skills training within 60 days,Complete negotiation module,Negotiation skills,Mandatory,Medium,DOC-013,Section 3.0,Negotiation skills assessment
+REQ-012,Sales Executive,NexaCore product portfolio and pricing model training,Know product tiers and pricing,Product knowledge,Mandatory,High,DOC-009,Section 3.0,Product knowledge quiz
+REQ-013,Sales Executive,Weekly activity report submission training,Learn report format,Reporting,Mandatory,Medium,DOC-009,Section 6.1,Submit sample weekly report
+REQ-014,Sales Executive,Client onboarding handoff process training,Complete handoff form training,Process compliance,Mandatory,High,DOC-009,Section 5.0,Complete sample handoff form
+REQ-015,Sales Executive,SLA and escalation awareness,Know when to escalate a deal,Escalation awareness,Optional,Low,DOC-022,Section 2.0,Escalation knowledge check
+REQ-016,Customer Support Executive,Complete company orientation on Day 1,Attend orientation session,Company awareness,Mandatory,High,DOC-001,Section 4.1,Orientation attendance confirmation
+REQ-017,Customer Support Executive,Information security awareness training within Week 1,Complete IS training module,Information security basics,Mandatory,High,DOC-006,Section 7.1,IS awareness quiz (pass >=70%)
+REQ-018,Customer Support Executive,Data privacy and compliance briefing within Week 1,Complete data privacy module,Data privacy awareness,Mandatory,High,DOC-008,Section 5.1,Data privacy quiz (pass >=70%)
+REQ-019,Customer Support Executive,Code of conduct acknowledgment on Day 1,Sign code of conduct form,Professional conduct,Mandatory,High,DOC-007,Section 2.0,Signed acknowledgment form
+REQ-020,Customer Support Executive,NexaCRM Pro product and portal training (Week 1-3),Complete CRM training,NexaCRM Pro proficiency,Mandatory,High,DOC-014,Section 4.0,NexaCRM Pro product assessment
+REQ-021,Customer Support Executive,Customer Support SOP and SLA training (Week 1),Complete SLA training,SLA management,Mandatory,High,DOC-010,Section 2.0,SLA quiz (pass >=70%)
+REQ-022,Customer Support Executive,Ticket categorization and escalation path training (Week 1),Complete ticket training,Ticket management,Mandatory,High,DOC-010,Section 3.0,Ticket categorization assessment
+REQ-023,Customer Support Executive,Communication standards training (Week 2),Complete comms training,Professional communication,Mandatory,High,DOC-010,Section 4.0,Communication standards quiz
+REQ-024,Customer Support Executive,Information security and client data handling training (Week 1),Complete security training,Client data security,Mandatory,High,DOC-006,Section 4.0,Client data security assessment
+REQ-025,Customer Support Executive,Knowledge base usage and contribution training (Week 2),Complete KB training,Knowledge management,Mandatory,Medium,DOC-010,Section 5.0,Create one KB article
+REQ-026,Customer Support Executive,Supervised live ticket handling minimum 20 tickets (Weeks 3-4),Complete supervised tickets,Practical ticket handling,Mandatory,High,DOC-014,Section 4.0,Supervisor sign-off on 20 tickets
+REQ-027,Customer Support Executive,Support KPI assessment (Week 4),Pass KPI assessment,KPI performance,Mandatory,High,DOC-014,Section 5.0,KPI assessment (pass >=70%)
+REQ-028,Customer Support Executive,ITIL or service management framework training (within 60 days),Complete ITIL training,ITIL awareness,Mandatory,Medium,DOC-014,Section 3.0,ITIL foundation assessment
+REQ-029,Customer Support Executive,Call recording and quality monitoring consent,Sign QA monitoring consent,Policy compliance,Mandatory,High,DOC-010,Section 4.3,Signed consent form
+REQ-030,Customer Support Executive,Escalation procedure awareness (P1-P4 paths),Study escalation manual,Escalation procedures,Mandatory,High,DOC-022,Section 2.0,Escalation scenario quiz
+REQ-031,HR Executive,Complete company orientation on Day 1,Attend orientation session,Company awareness,Mandatory,High,DOC-001,Section 4.1,Orientation attendance confirmation
+REQ-032,HR Executive,Information security awareness training within Week 1,Complete IS training module,Information security basics,Mandatory,High,DOC-006,Section 7.1,IS awareness quiz (pass >=70%)
+REQ-033,HR Executive,Data privacy and compliance briefing within Week 1,Complete data privacy module,Data privacy and PECO Act,Mandatory,High,DOC-008,Section 5.1,Data privacy quiz (pass >=70%)
+REQ-034,HR Executive,Code of conduct acknowledgment on Day 1,Sign code of conduct form,Professional conduct,Mandatory,High,DOC-007,Section 2.0,Signed acknowledgment form
+REQ-035,HR Executive,HR Policy v2 deep-dive training (Week 1-2),Complete HR policy training,HR policy knowledge,Mandatory,High,DOC-003,Section 1.0,HR policy quiz (pass >=80%)
+REQ-036,HR Executive,Leave Policy v2 training (Week 1),Complete leave policy training,Leave policy knowledge,Mandatory,High,DOC-005,Section 1.0,Leave policy quiz (pass >=80%)
+REQ-037,HR Executive,Recruitment and onboarding process training (Week 2-3),Complete recruitment training,Recruitment process,Mandatory,High,DOC-015,Section 4.0,Recruitment scenario assessment
+REQ-038,HR Executive,HRMS system training (Week 1-2),Complete HRMS training,HRMS proficiency,Mandatory,High,DOC-015,Section 4.0,HRMS navigation test
+REQ-039,HR Executive,Employee data privacy and handling training (Week 1),Complete data handling training,Employee data protection,Mandatory,High,DOC-008,Section 2.0,Employee data handling assessment
+REQ-040,HR Executive,Workplace conduct and code of conduct policy training (Week 1),Complete conduct policy training,Policy enforcement,Mandatory,High,DOC-007,Section 1.0,Conduct policy quiz
+REQ-041,HR Executive,Pakistani labor law overview session (Week 3),Attend labor law session,Labor law awareness,Mandatory,Medium,DOC-021,Section 2.0,Labor law knowledge check
+REQ-042,HR Executive,Supervised conduct of one full new-employee orientation session (Week 4),Shadow and lead orientation,Orientation facilitation,Mandatory,High,DOC-015,Section 4.0,Supervisor sign-off on orientation delivery
+REQ-043,HR Executive,Performance review process training,Understand biannual review cycle,Performance management,Mandatory,Medium,DOC-003,Section 4.0,Performance review process quiz
+REQ-044,HR Executive,Disciplinary and grievance procedure training,Complete D&G training,Grievance handling,Mandatory,High,DOC-003,Section 5.0,Disciplinary procedure scenario quiz
+REQ-045,HR Executive,Confidentiality obligations briefing,Understand employee data confidentiality,Confidentiality,Mandatory,High,DOC-008,Section 1.0,Confidentiality acknowledgment form
+REQ-046,Finance Associate,Complete company orientation on Day 1,Attend orientation session,Company awareness,Mandatory,High,DOC-001,Section 4.1,Orientation attendance confirmation
+REQ-047,Finance Associate,Information security awareness training within Week 1,Complete IS training module,Information security basics,Mandatory,High,DOC-006,Section 7.1,IS awareness quiz (pass >=70%)
+REQ-048,Finance Associate,Data privacy and compliance briefing within Week 1,Complete data privacy module,Data privacy awareness,Mandatory,High,DOC-008,Section 5.1,Data privacy quiz (pass >=70%)
+REQ-049,Finance Associate,Code of conduct acknowledgment on Day 1,Sign code of conduct form,Professional conduct,Mandatory,High,DOC-007,Section 2.0,Signed acknowledgment form
+REQ-050,Finance Associate,Finance & Accounts SOP training (Week 1-2),Complete Finance SOP training,Finance processes,Mandatory,High,DOC-011,Section 1.0,Finance SOP quiz (pass >=80%)
+REQ-051,Finance Associate,Accounting software training (Week 1-3),Complete accounting system training,Accounting system proficiency,Mandatory,High,DOC-016,Section 4.0,Accounting system navigation test
+REQ-052,Finance Associate,Tax compliance and FBR regulations training (Week 2-3),Complete FBR training,FBR tax compliance,Mandatory,High,DOC-021,Section 2.2,FBR regulations quiz (pass >=80%)
+REQ-053,Finance Associate,Payment authorization procedures and approval thresholds training (Week 1),Complete payment training,Payment authorization,Mandatory,High,DOC-011,Section 2.0,Payment thresholds scenario quiz
+REQ-054,Finance Associate,Data privacy and financial data handling training (Week 1),Complete financial data training,Financial data security,Mandatory,High,DOC-008,Section 3.0,Financial data handling assessment
+REQ-055,Finance Associate,Month-end reporting process training (Week 3-4),Complete reporting training,Financial reporting,Mandatory,High,DOC-016,Section 4.0,Month-end process walkthrough
+REQ-056,Finance Associate,Supervised processing of one complete month-end cycle (Week 4),Complete supervised month-end,Practical financial processing,Mandatory,High,DOC-016,Section 4.0,Supervisor sign-off
+REQ-057,Finance Associate,PCI-DSS compliance awareness training,Complete PCI-DSS training,PCI-DSS compliance,Mandatory,Medium,DOC-021,Section 2.4,PCI-DSS quiz
+REQ-058,Finance Associate,Anti-money laundering (AML) awareness training within 30 days,Complete AML training,AML compliance,Mandatory,High,DOC-021,Section 5.0,AML awareness quiz (pass >=70%)
+REQ-059,Finance Associate,Expense reimbursement process training,Learn expense claim process,Expense management,Mandatory,Medium,DOC-011,Section 4.0,Expense claim form submission test
+REQ-060,Finance Associate,Accounts payable process training,Master AP procedures,Accounts payable,Mandatory,High,DOC-011,Section 2.0,AP process assessment
+REQ-061,Operations Coordinator,Complete company orientation on Day 1,Attend orientation session,Company awareness,Mandatory,High,DOC-001,Section 4.1,Orientation attendance confirmation
+REQ-062,Operations Coordinator,Information security awareness training within Week 1,Complete IS training module,Information security basics,Mandatory,High,DOC-006,Section 7.1,IS awareness quiz (pass >=70%)
+REQ-063,Operations Coordinator,Data privacy and compliance briefing within Week 1,Complete data privacy module,Data privacy awareness,Mandatory,High,DOC-008,Section 5.1,Data privacy quiz (pass >=70%)
+REQ-064,Operations Coordinator,Code of conduct acknowledgment on Day 1,Sign code of conduct form,Professional conduct,Mandatory,High,DOC-007,Section 2.0,Signed acknowledgment form
+REQ-065,Operations Coordinator,Operations Department SOP training (Week 1-2),Complete Operations SOP training,Operations processes,Mandatory,High,DOC-012,Section 1.0,Operations SOP quiz
+REQ-066,Operations Coordinator,Extended working hours awareness (availability until 7:00 PM),Acknowledge extended hours requirement,Schedule compliance,Mandatory,High,DOC-012,Section 2.0,Signed schedule acknowledgment
+REQ-067,Operations Coordinator,Vendor management and assessment process training (Week 2),Complete vendor training,Vendor management,Mandatory,High,DOC-012,Section 3.0,Vendor assessment checklist quiz
+REQ-068,Operations Coordinator,Procurement procedures and approval thresholds training (Week 2),Complete procurement training,Procurement process,Mandatory,High,DOC-012,Section 5.0,Procurement scenario quiz
+REQ-069,Operations Coordinator,Facilities management system training (Week 1),Complete facilities training,Facilities management,Mandatory,Medium,DOC-012,Section 4.0,Facilities system navigation test
+REQ-070,Operations Coordinator,On-call rotation policy awareness,Understand on-call obligations,On-call availability,Mandatory,Medium,DOC-012,Section 2.2,On-call acknowledgment form
+REQ-071,Operations Coordinator,Escalation procedures for operational issues training (Week 2),Complete escalation training,Escalation management,Mandatory,Medium,DOC-022,Section 6.0,Operational escalation quiz
+REQ-072,Marketing Executive,Complete company orientation on Day 1,Attend orientation session,Company awareness,Mandatory,High,DOC-001,Section 4.1,Orientation attendance confirmation
+REQ-073,Marketing Executive,Information security awareness training within Week 1,Complete IS training module,Information security basics,Mandatory,High,DOC-006,Section 7.1,IS awareness quiz (pass >=70%)
+REQ-074,Marketing Executive,Data privacy and compliance briefing within Week 1,Complete data privacy module,Data privacy awareness,Mandatory,High,DOC-008,Section 5.1,Data privacy quiz (pass >=70%)
+REQ-075,Marketing Executive,Code of conduct acknowledgment on Day 1,Sign code of conduct form,Professional conduct,Mandatory,High,DOC-007,Section 2.0,Signed acknowledgment form
+REQ-076,Marketing Executive,Social media and external communications policy training (Week 1),Complete social media training,Social media policy compliance,Mandatory,High,DOC-007,Section 5.0,Social media policy quiz
+REQ-077,Marketing Executive,NexaCRM Pro marketing modules overview (Week 2),Complete CRM marketing overview,CRM product knowledge,Mandatory,Medium,DOC-001,Section 4.2,CRM marketing quiz
+REQ-078,Marketing Executive,Marketing approval process training (Week 2),Learn content approval workflow,Content compliance,Mandatory,High,DOC-007,Section 5.2,Approval workflow walkthrough
+REQ-079,Marketing Executive,Brand guidelines and tone-of-voice training (Week 1-2),Complete brand guidelines training,Brand compliance,Mandatory,High,DOC-001,Section 2.0,Brand quiz
+REQ-080,Marketing Executive,Data privacy for marketing communications training (Week 1),Learn marketing data privacy rules,Marketing data compliance,Mandatory,High,DOC-008,Section 2.0,Marketing data privacy quiz
+REQ-081,Marketing Executive,Conflict of interest disclosure process,Understand conflict of interest rules,Ethics compliance,Mandatory,Medium,DOC-007,Section 3.0,Conflict of interest acknowledgment
+REQ-082,Software Support Engineer,Complete company orientation on Day 1,Attend orientation session,Company awareness,Mandatory,High,DOC-001,Section 4.1,Orientation attendance confirmation
+REQ-083,Software Support Engineer,Information security ADVANCED training within first 5 days,Complete advanced IS training,Advanced information security,Mandatory,High,DOC-006,Section 7.3,Advanced IS assessment (pass >=80%)
+REQ-084,Software Support Engineer,Data privacy ADVANCED training for technical staff within first 5 days,Complete advanced data privacy training,Advanced data privacy,Mandatory,High,DOC-008,Section 5.3,Advanced data privacy assessment (pass >=80%)
+REQ-085,Software Support Engineer,Code of conduct acknowledgment on Day 1,Sign code of conduct form,Professional conduct,Mandatory,High,DOC-007,Section 2.0,Signed acknowledgment form
+REQ-086,Software Support Engineer,NexaCRM Pro technical architecture deep-dive training (Week 1-3),Complete architecture training,Platform architecture,Mandatory,High,DOC-017,Section 4.0,Architecture knowledge assessment
+REQ-087,Software Support Engineer,API documentation and integration patterns training (Week 2-3),Complete API training,API integration,Mandatory,High,DOC-019,Section 2.0,API integration practical test
+REQ-088,Software Support Engineer,Bug reporting and escalation procedures training (Week 1-2),Complete bug reporting training,Bug management,Mandatory,High,DOC-017,Section 4.0,Bug reporting scenario quiz
+REQ-089,Software Support Engineer,Supervised P1 ticket shadow resolution minimum 5 tickets (Weeks 2-3),Complete supervised P1 tickets,P1 incident handling,Mandatory,High,DOC-017,Section 4.0,Supervisor sign-off on 5 P1 tickets
+REQ-090,Software Support Engineer,Technical competency assessment Python/SQL/REST API (Week 3),Pass technical assessment,Python/SQL/API proficiency,Mandatory,High,DOC-017,Section 3.0,Technical assessment (pass >=70%)
+REQ-091,Software Support Engineer,Secure coding practices workshop (Week 2),Complete secure coding workshop,Secure coding,Mandatory,High,DOC-006,Section 6.0,Secure coding assessment (pass >=70%)
+REQ-092,Software Support Engineer,ITIL Foundation training within 60 days,Complete ITIL training,ITIL service management,Mandatory,Medium,DOC-017,Section 3.0,ITIL Foundation quiz
+REQ-093,Software Support Engineer,Production access dual-authorization policy training,Understand access controls,Access control compliance,Mandatory,High,DOC-019,Section 4.4,Access control acknowledgment
+REQ-094,Software Support Engineer,Change management and CAB process training,Learn change management,Change management,Mandatory,High,DOC-019,Section 5.0,Change management quiz
+REQ-095,Software Support Engineer,Data backup and recovery procedures training,Learn backup/recovery procedures,Data recovery,Mandatory,Medium,DOC-019,Section 3.0,Backup procedures quiz
+REQ-096,Branch Manager,Complete company orientation on Day 1,Attend orientation session,Company awareness,Mandatory,High,DOC-001,Section 4.1,Orientation attendance confirmation
+REQ-097,Branch Manager,Full HR Policy v2 training (Week 1-2),Complete HR policy training,HR policy expertise,Mandatory,High,DOC-003,Section 1.0,HR policy quiz (pass >=90%)
+REQ-098,Branch Manager,Leave Policy v2 training (Week 1-2),Complete leave policy training,Leave policy management,Mandatory,High,DOC-005,Section 1.0,Leave policy quiz (pass >=90%)
+REQ-099,Branch Manager,Finance SOP and authorization thresholds training (Week 1-2),Complete finance training,Financial authorization management,Mandatory,High,DOC-011,Section 2.0,Finance SOP quiz (pass >=80%)
+REQ-100,Branch Manager,Leadership and people management training (Week 2-3),Complete leadership training,Leadership skills,Mandatory,High,DOC-018,Section 4.0,Leadership competency assessment
+REQ-101,Branch Manager,Branch P&L and financial management training (Week 2-3),Complete P&L training,P&L management,Mandatory,High,DOC-018,Section 4.0,P&L management assessment
+REQ-102,Branch Manager,Information security leadership training (Week 1),Complete IS leadership training,Information security leadership,Mandatory,High,DOC-006,Section 7.1,IS leadership assessment (pass >=80%)
+REQ-103,Branch Manager,Code of conduct acknowledgment and management responsibilities briefing (Day 1),Complete conduct training,Management conduct obligations,Mandatory,High,DOC-007,Section 2.0,Signed management acknowledgment
+REQ-104,Branch Manager,Disciplinary and grievance procedure training (Week 2),Complete D&G training,Disciplinary management,Mandatory,High,DOC-003,Section 5.0,D&G procedure quiz (pass >=80%)
+REQ-105,Branch Manager,NexaCRM Pro management dashboard training (Week 1-2),Complete dashboard training,CRM dashboard proficiency,Mandatory,High,DOC-018,Section 4.0,Dashboard navigation test
+REQ-106,Branch Manager,Regional Director and executive stakeholder introductions (Week 1),Complete stakeholder meetings,Stakeholder management,Mandatory,High,DOC-018,Section 4.0,Meeting attendance confirmed
+REQ-107,Branch Manager,30-day shadowing of outgoing or interim Branch Manager (Weeks 1-4),Complete shadowing program,Branch operations management,Mandatory,High,DOC-018,Section 4.0,Shadow manager sign-off
+REQ-108,Branch Manager,Escalation procedure training for all departments (Week 2),Complete escalation training,Multi-department escalation,Mandatory,High,DOC-022,Section 1.0,Escalation procedure quiz
+REQ-109,Branch Manager,Anti-bribery and corruption policy training,Complete ABC training,Anti-corruption compliance,Mandatory,High,DOC-007,Section 4.0,ABC policy quiz
+REQ-110,Branch Manager,Data privacy policy management briefing,Complete data privacy briefing,Data privacy leadership,Mandatory,High,DOC-008,Section 1.0,Data privacy briefing acknowledgment
+REQ-111,Data Analyst,Complete company orientation on Day 1,Attend orientation session,Company awareness,Mandatory,High,DOC-001,Section 4.1,Orientation attendance confirmation
+REQ-112,Data Analyst,Information security ADVANCED training within first 5 days,Complete advanced IS training,Advanced information security,Mandatory,High,DOC-006,Section 7.3,Advanced IS assessment (pass >=80%)
+REQ-113,Data Analyst,Data privacy ADVANCED training within first 5 days,Complete advanced data privacy training,Advanced data privacy,Mandatory,High,DOC-008,Section 5.3,Advanced data privacy assessment (pass >=80%)
+REQ-114,Data Analyst,Code of conduct acknowledgment on Day 1,Sign code of conduct form,Professional conduct,Mandatory,High,DOC-007,Section 2.0,Signed acknowledgment form
+REQ-115,Data Analyst,NexaCRM Pro data and reporting modules training (Week 2-3),Complete CRM data training,CRM data analysis,Mandatory,High,DOC-001,Section 4.2,CRM data analysis assessment
+REQ-116,Data Analyst,Data handling and classification policy training (Week 1),Complete data classification training,Data classification compliance,Mandatory,High,DOC-006,Section 4.0,Data classification quiz
+REQ-117,Data Analyst,SQL and data query tools proficiency assessment (Week 2),Complete SQL assessment,SQL proficiency,Mandatory,High,DOC-019,Section 2.0,SQL assessment (pass >=70%)
+REQ-118,Data Analyst,Analytics and reporting tools training (Week 2-4),Complete analytics training,Analytics tools proficiency,Mandatory,High,DOC-001,Section 4.2,Analytics tools navigation test
+REQ-119,Data Analyst,Data governance and quality standards training (Week 2),Complete data governance training,Data governance,Mandatory,Medium,DOC-008,Section 1.0,Data governance quiz
+REQ-120,Data Analyst,Conflict of interest disclosure for data roles,Complete disclosure process,Ethics in data,Mandatory,Medium,DOC-007,Section 3.0,Disclosure form submitted
+REQ-121,Team Leader,Complete company orientation on Day 1,Attend orientation session,Company awareness,Mandatory,High,DOC-001,Section 4.1,Orientation attendance confirmation
+REQ-122,Team Leader,Information security awareness training within Week 1,Complete IS training module,Information security basics,Mandatory,High,DOC-006,Section 7.1,IS awareness quiz (pass >=70%)
+REQ-123,Team Leader,Data privacy and compliance briefing within Week 1,Complete data privacy module,Data privacy awareness,Mandatory,High,DOC-008,Section 5.1,Data privacy quiz (pass >=70%)
+REQ-124,Team Leader,Code of conduct acknowledgment on Day 1,Sign code of conduct form,Professional conduct,Mandatory,High,DOC-007,Section 2.0,Signed acknowledgment form
+REQ-125,Team Leader,HR Policy v2 management sections training (Week 1-2),Complete HR management training,HR policy for managers,Mandatory,High,DOC-003,Section 2.0,HR management quiz (pass >=80%)
+REQ-126,Team Leader,Performance review and KPI management training (Week 2),Complete performance training,Performance management,Mandatory,High,DOC-003,Section 4.0,Performance management quiz
+REQ-127,Team Leader,Team leadership and coaching skills training (Week 2-3),Complete leadership training,Team leadership,Mandatory,High,DOC-001,Section 6.0,Leadership skills assessment
+REQ-128,Team Leader,Escalation procedure management training (Week 2),Complete escalation training,Escalation management,Mandatory,High,DOC-022,Section 1.0,Escalation management quiz
+REQ-129,Team Leader,Disciplinary procedure overview for team leads,Complete disciplinary training,Disciplinary awareness,Mandatory,Medium,DOC-003,Section 5.0,Disciplinary procedure quiz
+REQ-130,Team Leader,Department-specific SOP training (relevant to their team),Complete department SOP training,Department-specific operations,Mandatory,High,DOC-009,Section 1.0,Department SOP quiz
+REQ-131,Team Leader,NexaCRM Pro team management dashboard training (Week 1-2),Complete team dashboard training,CRM team management,Mandatory,High,DOC-001,Section 4.2,Team dashboard navigation test
+REQ-132,Sales Executive,Monthly pipeline review attendance,Attend monthly pipeline reviews,Sales collaboration,Optional,Medium,DOC-009,Section 6.2,Attendance record
+REQ-133,Sales Executive,Quarterly business review participation,Attend QBRs,Strategic awareness,Optional,Low,DOC-009,Section 6.3,Attendance record
+REQ-134,Customer Support Executive,Recurring issue flagging process training,Understand customer success review triggers,Proactive support,Optional,Medium,DOC-010,Section 3.4,Flagging process quiz
+REQ-135,Finance Associate,Annual audit support training,Understand audit support process,Audit readiness,Optional,Medium,DOC-011,Section 5.3,Audit awareness quiz
+REQ-136,Branch Manager,Quarterly vendor performance review process,Understand vendor reviews,Vendor oversight,Optional,Low,DOC-012,Section 3.3,Vendor review process quiz
+REQ-137,Data Analyst,Statistical analysis methods training,Complete stats training,Statistical analysis,Optional,Medium,DOC-001,Section 4.2,Stats methods assessment
+REQ-138,Software Support Engineer,Knowledge base article contribution minimum 2 per month,Contribute KB articles,Knowledge management,Mandatory,Medium,DOC-010,Section 5.1,Two KB articles submitted by end of Month 1
+REQ-139,Operations Coordinator,Quarterly vendor performance review participation,Attend vendor reviews,Vendor management,Optional,Low,DOC-012,Section 3.3,Attendance record
+REQ-140,Marketing Executive,Quarterly campaign performance review participation,Attend campaign reviews,Marketing analytics,Optional,Low,DOC-001,Section 6.0,Attendance record
+REQ-141,Team Leader,Monthly team performance report submission,Submit team reports,Team reporting,Mandatory,High,DOC-001,Section 6.1,Sample report submitted
+REQ-142,Branch Manager,Monthly branch performance report submission to Regional Director,Submit branch reports,Branch reporting,Mandatory,High,DOC-018,Section 2.0,Sample report submitted
+REQ-143,Sales Executive,Lead entry into NexaCRM Pro within 24 hours of first contact,Practice timely CRM updates,CRM discipline,Mandatory,High,DOC-009,Section 2.1,CRM audit spot check
+REQ-144,Customer Support Executive,Ticket logging within 30 minutes of receipt,Practice timely ticket logging,SLA discipline,Mandatory,High,DOC-010,Section 2.3,Ticket logging timeliness audit
+REQ-145,Finance Associate,Invoice processing within 24 hours of receipt,Practice timely invoice entry,Accounts payable discipline,Mandatory,High,DOC-011,Section 2.1,Invoice processing audit
+REQ-146,Software Support Engineer,Incident reporting within 1 hour of discovery,Understand incident reporting timeline,Security incident compliance,Mandatory,High,DOC-006,Section 5.1,Incident reporting scenario quiz
+REQ-147,Branch Manager,Staff performance review biannual completion,Conduct biannual reviews for all direct reports,Performance management compliance,Mandatory,High,DOC-003,Section 4.1,HR confirmation of reviews scheduled
+REQ-148,HR Executive,Biannual performance review cycle coordination,Coordinate June and December reviews,Review coordination,Mandatory,High,DOC-003,Section 4.1,Review schedule published on time
+REQ-149,Data Analyst,Data breach reporting within 1 hour of discovery,Report breaches immediately,Data breach response,Mandatory,High,DOC-006,Section 5.1,Breach reporting scenario quiz
+REQ-150,Operations Coordinator,Emergency maintenance immediate reporting,Report facility emergencies immediately,Emergency response,Mandatory,High,DOC-012,Section 4.3,Emergency reporting scenario quiz
+REQ-151,All Roles,Annual compliance refresher training,Complete annual refresher,Ongoing compliance,Mandatory,High,DOC-021,Section 6.4,Annual compliance quiz
+REQ-152,All Roles,NexaCRM Pro product overview (Week 2),Complete product overview,Basic product awareness,Mandatory,Medium,DOC-001,Section 4.1,Product overview quiz
+REQ-153,All Roles,Communication tools training (Week 1),Complete comms tools training,Communications tools proficiency,Mandatory,Medium,DOC-001,Section 4.1,Tools proficiency check
+REQ-154,All Roles,HR systems and payroll orientation (Week 2),Complete HRMS orientation,HRMS basic navigation,Mandatory,Medium,DOC-001,Section 4.1,HRMS access confirmed
+REQ-155,Branch Manager,Anti-money laundering awareness training,Complete AML training,AML awareness,Mandatory,High,DOC-021,Section 5.0,AML quiz (pass >=70%)

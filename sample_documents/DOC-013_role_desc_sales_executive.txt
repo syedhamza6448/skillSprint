@@ -1,0 +1,62 @@
+﻿NEXACORE SOLUTIONS PVT. LTD.
+ROLE DESCRIPTION — SALES EXECUTIVE
+Document ID: DOC-013
+Version: 1.0
+Role ID: R01
+Department: Sales & Business Development
+
+=============================================================
+SECTION 1: ROLE SUMMARY
+=============================================================
+
+The Sales Executive is responsible for identifying and converting new business opportunities. The role involves prospecting, qualifying leads, conducting product demonstrations, preparing proposals, and managing the sales pipeline from initial contact through to closed deals.
+
+=============================================================
+SECTION 2: KEY RESPONSIBILITIES
+=============================================================
+
+- Identify and prospect new clients in the target market (retail, banking, logistics, telecom)
+- Qualify leads and manage the full sales cycle in NexaCRM Pro
+- Conduct NexaCRM Pro product demonstrations (online and on-site)
+- Prepare and present tailored proposals and quotations
+- Negotiate terms and close deals within authorized discount limits
+- Complete client onboarding handoff documentation post-sale
+- Submit weekly activity reports and maintain accurate pipeline data
+- Meet or exceed monthly/quarterly sales targets
+- Attend and contribute to monthly pipeline reviews and QBRs
+
+=============================================================
+SECTION 3: MANDATORY COMPETENCIES
+=============================================================
+
+- Proficiency in CRM software (NexaCRM Pro training required within 30 days)
+- Strong communication and presentation skills
+- Negotiation skills (NexaCore Negotiation Skills training required within 60 days)
+- Understanding of NexaCore product portfolio and pricing model
+- Familiarity with the IT/SaaS industry and typical client pain points
+
+=============================================================
+SECTION 4: MANDATORY ONBOARDING REQUIREMENTS
+=============================================================
+
+- Company orientation (Day 1)
+- NexaCRM Pro product training and certification (Week 2-4)
+- Sales process and pipeline management training (Week 1-2)
+- Proposal preparation and approval process training (Week 2)
+- Data privacy and client data handling briefing (Week 1)
+- Information security awareness training (Week 1)
+- Code of conduct acknowledgment (Day 1)
+- Sales KPI and reporting training (Week 2)
+- Successful completion of a role-play sales demonstration assessment (Week 4)
+
+=============================================================
+SECTION 5: KPIs
+=============================================================
+
+- Monthly revenue target achievement (primary KPI)
+- Pipeline value maintained at 3x monthly target
+- Weekly activity reports submitted on time (100%)
+- NexaCRM Pro data accuracy (audited quarterly)
+
+---
+END OF DOCUMENT — Role Description: Sales Executive (DOC-013)
