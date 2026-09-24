@@ -1,0 +1,14 @@
+[theme]
+base            = "light"
+primaryColor    = "#6366f1"   # indigo-500 — matches --accent in app.py
+backgroundColor = "#f8f9ff"
+secondaryBackgroundColor = "#e0e7ff"
+textColor       = "#1e1b4b"
+
+[server]
+headless        = true        # required for Streamlit Cloud
+enableCORS      = false
+port            = 8501
+
+[browser]
+gatherUsageStats = false

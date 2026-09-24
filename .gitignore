@@ -1,6 +1,28 @@
+# ── Python / virtualenv ────────────────────────────────────────────
 venv/
-__pycache__/
-.env
-*.db
-.pytest_cache/
 .venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Secrets / environment ──────────────────────────────────────────
+.env
+.streamlit/secrets.toml   # NEVER commit real secrets
+
+# ── Test / coverage cache ──────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── SQLite databases — EXCEPT the pre-populated deployment DB ──────
+*.db
+!skillsprint.db           # committed so the app has data on first deploy
+
+# ── OS / editor noise ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
