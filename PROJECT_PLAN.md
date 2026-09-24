@@ -8,7 +8,7 @@
 |---|---|---|
 | Project scaffold (repo, folder structure, venv, requirements.txt, git init) | ✅ Done | Built via PowerShell commands |
 | Day 0: Org / documents / Requirement Matrix / prompt templates | ✅ Done | 22 docs (DOC-001–022), 155-row matrix, prompt_v1.yaml, org brief. 11 adversarial injections, 19 conflict/version markers. |
-| Phase 1: Document ingestion (upload, validate, parse, chunk) | ⬜ Not started | |
+| Phase 1: Document ingestion (upload, validate, parse, chunk) | ✅ Done | PDF/DOCX validation, parsing (pdfplumber/python-docx), section chunking, SQLite persistence, Streamlit UI, 22 converted PDF/DOCX docs, 12 automated unit tests passing. |
 | Phase 2: Requirement Matrix loaded into app | ⬜ Not started | |
 | Phase 3: Pipeline 1 — GenAI generation | ⬜ Not started | |
 | Phase 4: Pipeline 2 — Python validation | ⬜ Not started | |
