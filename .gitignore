@@ -1,5 +1,6 @@
-.env
 venv/
 __pycache__/
-*.pyc
-skillsprint.db
+.env
+*.db
+.pytest_cache/
+.venv/
